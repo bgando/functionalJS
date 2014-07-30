@@ -23,24 +23,27 @@ firstNameBianca('Smith');
 
 4. Using the module pattern, design toaster. Use your creativity here and think about what you want your users to be able to access on the outside of your toaster vs what you don't want them to be able to touch.
 		
-		var myToaster = function(){
-		    //some private methods and properties
-		    
-		    //some public methods and properties, etc
-		
-		
-		}
-	
+```javascript
+var myToaster = function(){
+    //some private methods and properties
+    
+    //some public methods and properties, etc
+
+
+}
+```
+
 5. Use the module pattern to design a character in a Super Mario game. Think about what actions you can control in the game and other aspects you can't control directly (example:  you can only affect your health indirectly by eating a mushroom). If you are not familiar with Super Mario, choose another simple game for this example.
 
 6.[EXTRA CREDIT] Why doesn't the code below work? This is a function that should return an array of functions that console.log() each person's name in a string when invoked. Fiddle with this function and inspect how it works then try to fix it using a closure. Be prepared to explain to a partner tomorrow. 
 
-		var checkAttendanceFunc = function(nameArr){
-			var resultArr = [];
-			for(var i = 0; i < nameArr.length; i++){
-				resultArr.push(function(){ console.log('Is', nameArr[i], 'present?', i)})
-			};
-			return resultArr;
-		};
-
+```javascript
+var checkAttendanceFunc = function(nameArr){
+	var resultArr = [];
+	for(var i = 0; i < nameArr.length; i++){
+		resultArr.push(function(){ console.log('Is', nameArr[i], 'present?', i)})
+	};
+	return resultArr;
+};
+```
 Here is a hint: http://jsfiddle.net/PuEy6/
