@@ -4,13 +4,13 @@
        var lastNameTrier = function(firstName){
            //does stuff
 
-           var innerFunction() {
+           var innerFunction = function() { 
               //does stuff
            };
            //maybe returns something here
        };
-       var name = lastNameTrier('Bianca'); //logs nothing
-       name('Gandolfo'); //logs 'Bianca Gandolfo' 
+       var firstName = lastNameTrier('Bianca'); //logs nothing
+       firstName('Gandolfo'); //logs 'Bianca Gandolfo' 
        
        
 2. Write a function that has three nested functions, each taking one number as an argument. The inner-most function should return the sum of all three numbers.
