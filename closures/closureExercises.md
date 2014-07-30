@@ -15,7 +15,7 @@ firstNameBianca('Gandolfo'); //logs 'Bianca Gandolfo'
 This function is useful in case you want to try on different last names. For example, I could use firstName again with another last name:
 
 ```javascript
-firstNameBianca('Smith');
+firstNameBianca('Smith'); //logs 'Bianca Smith'
 ```
 2. Write a function that has three nested functions, each taking one number as an argument. The inner-most function should return the sum of all three numbers.
 
@@ -33,9 +33,10 @@ var myToaster = function(){
 }
 ```
 
+
 5. Use the module pattern to design a character in a Super Mario game. Think about what actions you can control in the game and other aspects you can't control directly (example:  you can only affect your health indirectly by eating a mushroom). If you are not familiar with Super Mario, choose another simple game for this example.
 
-6.[EXTRA CREDIT] Why doesn't the code below work? This is a function that should return an array of functions that console.log() each person's name in a string when invoked. Fiddle with this function and inspect how it works then try to fix it using a closure. Be prepared to explain to a partner tomorrow. 
+6. [EXTRA CREDIT] Why doesn't the code below work? This is a function that should return an array of functions that console.log() each person's name in a string when invoked. Fiddle with this function and inspect how it works then try to fix it using a closure. Be prepared to explain to a partner tomorrow. 
 
 ```javascript
 var checkAttendanceFunc = function(nameArr){
