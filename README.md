@@ -36,6 +36,7 @@ Wednesday (7pm-9pm)
 Topic: Functional Programming with Underscore.js pt. 1
 Source:
 
+- Higher-Order Functions
 - Looping with Functions
 - Each
 - Map
@@ -80,3 +81,7 @@ No textbook is required for this course. All materials are included in this gith
 
 Laptop, Chrome browser and a text editor. We recommend Sublime Text 3 for this course becuase its fast, light weight and you can run your JavaScript files in its console with Node.
 
+
+##Resources
+
+**Scope and Closure:** http://speakingjs.com/es5/ch16.html
