@@ -1,18 +1,22 @@
 ##Day 2: Closure exercises
 1. Write a function with a closure. The first function should only take one argument, someone's first name and the inner function should take one more argument, someone's last name. The inner function should console.log both the first name and the last name.
+```javascript
+var lastNameTrier = function(firstName){
+   //does stuff
 
-       var lastNameTrier = function(firstName){
-           //does stuff
+    var innerFunction = function() { 
+        //does stuff
+    };
+    //maybe returns something here
+};
+var firstNameBianca = lastNameTrier('Bianca'); //logs nothing
+firstNameBianca('Gandolfo'); //logs 'Bianca Gandolfo' 
+```      
+This function is useful in case you want to try on different last names. For example, I could use firstName again with another last name:
 
-           var innerFunction = function() { 
-              //does stuff
-           };
-           //maybe returns something here
-       };
-       var firstName = lastNameTrier('Bianca'); //logs nothing
-       firstName('Gandolfo'); //logs 'Bianca Gandolfo' 
-       
-       
+```javascript
+firstNameBianca('Smith');
+```
 2. Write a function that has three nested functions, each taking one number as an argument. The inner-most function should return the sum of all three numbers.
 
 3. Write a function that takes another function as an argument and creates a version of the function that can only be called one time. Repeated calls to the modified function will have no effect, returning the value from the original call. How could you do this without using a closure? How could you do this with a closure. 
