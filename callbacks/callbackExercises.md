@@ -1,6 +1,6 @@
 ##Day 3: Callback exercises
 
-1. Use _.each to loop through an array and console.log() all the values. Now use it to console.log() the indices. How would this be different if you were looping through and object?
+1. Use _.each to loop through an array and console.log() all the values. Now use it to console.log() the indices. How would this be different if you were looping through an object?
 
 2. Write a function that searches an array for a value. It takes an array and a value and returns true if the value exists in the array.
 
