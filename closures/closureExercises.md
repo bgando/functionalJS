@@ -16,7 +16,21 @@ This function is useful in case you want to try on different last names. For exa
 
 ```javascript
 firstNameBianca('Smith'); //logs 'Bianca Smith'
-```
+
+       var lastNameTrier = function(firstName){
+           //does stuff
+
+           var innerFunction() {
+              //does stuff
+           };
+           //maybe returns something here
+       };
+       var name = lastNameTrier('Bianca'); //logs nothing
+       
+       name('Gandolfo'); //logs 'Bianca Gandolfo' 
+```       
+       
+
 2. Write a function that has three nested functions, each taking one number as an argument. The inner-most function should return the sum of all three numbers.
 
 3. Write a function that takes another function as an argument and creates a version of the function that can only be called one time. Repeated calls to the modified function will have no effect, returning the value from the original call. How could you do this without using a closure? How could you do this with a closure. 

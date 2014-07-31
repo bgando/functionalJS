@@ -81,7 +81,14 @@ No textbook is required for this course. All materials are included in this gith
 
 Laptop, Chrome browser and a text editor. We recommend Sublime Text 3 for this course becuase its fast, light weight and you can run your JavaScript files in its console with Node.
 
+<<<<<<< Updated upstream
 
 ##Resources
 
 **Scope and Closure:** http://speakingjs.com/es5/ch16.html
+=======
+##Resources
+
+**Scope and Closure:** http://speakingjs.com/es5/ch16.html
+
+>>>>>>> Stashed changes
