@@ -3,7 +3,7 @@
 
 1. Exercise 1 Log decrementing numbers
 		
-		// Implement function countIncrementing that takes a number `n` and logs numbers 0 to n
+		// Implement function countDecrementing that takes a number `n` and logs numbers n to 0
  
  
 1. Exercise 2 Log incrementing numbers
