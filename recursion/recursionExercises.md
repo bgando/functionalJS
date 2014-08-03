@@ -34,4 +34,44 @@
 		// Implement function reverseString that takes a string and returns a reversed version of the string
   
  
+1. Exercise 7 Copy
+
+		// Implement function copy that takes an array of numbers or array and returns a copy of that array
+ 
+
+ 
+1. Exercise 8 Count the Nested levels
+
+		// Implement function copy that takes an array of arrays made of either [number, array] or [number, null]
+		// return the number of arrays including the given array
+		// Example: [100, [200, [300, [400, null]]]] returns 4
+ 
+ 
+1. Exercise 9
+
+		// Implement function copy that takes an object with a property children that holds either
+		// 1 an object with a property children or
+		// 2 null
+		// return the number of total children in the object
+		// 
+		// given: 
+		// var kale = {
+		//   name: "kale"
+		//   children: [ 
+		//   {
+		//    name: "brok"
+		//    children: [
+		//      {
+		//        name: cali
+		//        children: null;
+		//      }
+		//    ]
+		//   },
+		//   {
+		//    name: "brus"
+		//    children: null
+		//   }
+		//   ]  
+		// }
+
  
