@@ -10,7 +10,7 @@
 		  //checks if the val is in arr
 		}
 		
-3. Rewrite checkValue such it uses _.each. Make sure that you have underscore.js included where you are running your code.
+3. Rewrite checkValue using _.each. Make sure that you have underscore.js included where you are running your code.
 
 3. Write a loop that pushes all the values in an object to an array.
 
