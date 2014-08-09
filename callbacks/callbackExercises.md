@@ -21,7 +21,7 @@
 
 		input: {two: 2, four: 4, three: 3, twelve: 12}
 		output: [2, 4, 3, 12]
-4. use _.map to return all the even numbers in an array.
+4. use _.filter to return all the even numbers in an array.
 
 		input: [9,8,7,6,5,2]
 		output: [8,6,2]
