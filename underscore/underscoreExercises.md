@@ -29,7 +29,7 @@
  		input: [ {speak: function(){console.log('My name is ' + name);}, name: "Tiger", space: 7},  
  				{speak: function(){console.log('My name is ' + name);}, name: "Tiger2", space: 1},  
  				{speak: function(){console.log('My name is ' + name);}, name: "Tiger3", space: 3},  
- 				{speak: function(){console.log('My name is ' + name);}, name: "Tiger4", space: 3}]
+ 				{speak: function(){console.log('My name is ' + name);}, name: "Tiger4", space: 3} ]
  				
  		output: [{speak: function, name: "Tiger3", space: 3},  
  				{speak: function(){}, name: "Tiger4", space: 3}] 
