@@ -1,5 +1,5 @@
 ##Day 2: Closure exercises
-i. Write a function with a closure. The first function should only take one argument, someone's first name and the inner function should take one more argument, someone's last name. The inner function should console.log both the first name and the last name.
+i. Write a function with a closure. The first function should only take one argument, someone's first name, and the inner function should take one more argument, someone's last name. The inner function should console.log both the first name and the last name.
 ```javascript
 var lastNameTrier = function(firstName){
    //does stuff
