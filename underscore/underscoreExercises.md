@@ -1,6 +1,6 @@
 ## Day4: Underscore exercises
 
-1. use _.reduce to multiply all the values in an array
+1. Use _.reduce to multiply all the values in an array.
 
 1. Use _.reduce to concatenate all strings in an array.
  
@@ -22,7 +22,7 @@
  1. Rewrite your triple-nested add function from the closure exercise using _.partial.
 
  
- 1. Use _.filter to return all strings in an array that start with the letter 'Z'
+ 1. Use _.filter to return all strings in an array that start with the letter 'Z'.
  
  1. Use _.where on your farm animals from the lecture slides to return all animals who contain the value 3 at the property name space.
  
@@ -35,7 +35,7 @@
  				{speak: function(){}, name: "Tiger4", space: 3}] 
  				
  				
-  1. [EXTRA CREDIT]Write your own version of _.partial. HINT: it will require a closure!
+  1. [EXTRA CREDIT] Write your own version of _.partial. HINT: it will require a closure!
  				
 
  		
