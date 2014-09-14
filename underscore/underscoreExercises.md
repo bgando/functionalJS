@@ -35,7 +35,7 @@
  				{speak: function(){}, name: "Tiger4", space: 3}] 
  				
  				
-  1. [EXTRA CREDIT]Write your own version of _.partial
+  1. [EXTRA CREDIT]Write your own version of _.partial. HINT: it will require a closure!
  				
 
  		
