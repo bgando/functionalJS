@@ -36,7 +36,6 @@
  				
  				
   1. [EXTRA CREDIT]Write your own version of _.partial
-  1. [EXTRA CREDIT] Choose some underscore methods and write your on version of them
  				
 
  		
