@@ -27,12 +27,12 @@
  1. Use _.where on your farm animals from the lecture slides to return all animals who contain the value 3 at the property name space.
  
  		input: [ {speak: function, name: "Tiger", space: 7},  
- 				{speak: function, name: "Tiger2", space: 1},  
- 				{speak: function, name: "Tiger3", space: 3},  
- 				{speak: function, name: "Tiger4", space: 3}]
+ 				{speak: function(){}, name: "Tiger2", space: 1},  
+ 				{speak: function(){}, name: "Tiger3", space: 3},  
+ 				{speak: function(){}, name: "Tiger4", space: 3}]
  				
  		output: [{speak: function, name: "Tiger3", space: 3},  
- 				{speak: function, name: "Tiger4", space: 3}] 
+ 				{speak: function(){}, name: "Tiger4", space: 3}] 
  				
  				
   1. [EXTRA CREDIT]Write your own version of _.partial
