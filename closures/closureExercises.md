@@ -16,18 +16,7 @@ This function is useful in case you want to try on different last names. For exa
 
 ```javascript
 firstNameBianca('Smith'); //logs 'Bianca Smith'
-
-       var lastNameTrier = function(firstName){
-           //does stuff
-
-           var innerFunction() {
-              //does stuff
-           };
-           //maybe returns something here
-       };
-       var name = lastNameTrier('Bianca'); //logs nothing
-       
-       name('Gandolfo'); //logs 'Bianca Gandolfo' 
+firstNameBianca('Johnson'); //logs 'Bianca Johnson'
 ```       
        
 
