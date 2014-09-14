@@ -56,19 +56,19 @@
 		// 
 		// given: 
 		// var kale = {
-		//   name: "kale"
+		//   name: "kale",
 		//   children: [ 
 		//   {
-		//    name: "brok"
+		//    name: "brok",
 		//    children: [
 		//      {
-		//        name: cali
-		//        children: null;
+		//        name: cali,
+		//        children: null
 		//      }
 		//    ]
 		//   },
 		//   {
-		//    name: "brus"
+		//    name: "brus",
 		//    children: null
 		//   }
 		//   ]  
