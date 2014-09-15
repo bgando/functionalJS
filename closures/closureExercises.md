@@ -22,7 +22,7 @@ firstNameBianca('Johnson'); //logs 'Bianca Johnson'
 
 ii. Write a function that has three nested functions, each taking one number as an argument. The inner-most function should return the sum of all three numbers.
 
-iii. Write a function that takes another function as an argument and creates a version of the function that can only be called one time. Repeated calls to the modified function will have no effect, returning the value from the original call. How could you do this without using a closure? Is it even possible? How could you do this with a closure? 
+iii. Write a function that takes another function\* as an argument and creates a version of the function that can only be called one time. Repeated calls to the modified function will have no effect, returning the value from the original call. How could you do this without using a closure? Is it even possible? How could you do this with a closure? \*Note: This original input function should *not* have any parameters.
 
 iv. Using the module pattern, design toaster. Use your creativity here and think about what you want your users to be able to access on the outside of your toaster vs what you don't want them to be able to touch.
 		
