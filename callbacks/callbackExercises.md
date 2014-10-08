@@ -1,4 +1,4 @@
-##Day 3: Callback exercises
+##Callback exercises
 
 1. Use _.each to loop through an array and console.log() all the values. Now use it to console.log() the indices. How would this be different if you were looping through an object?
 
