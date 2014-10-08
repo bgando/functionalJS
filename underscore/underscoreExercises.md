@@ -18,8 +18,7 @@
  		myPluck = function(obj, propName){
  			//fill in here
  		}  
- 
-5. Rewrite your triple-nested add function from the closure exercise using _.partial.
+
 
  
 6. Use _.filter to return all strings in an array that start with the letter 'Z'.
@@ -34,8 +33,6 @@
  		output: [{speak: function, name: "Tiger3", space: 3},  
  				{speak: function(){}, name: "Tiger4", space: 3}] 
  				
- 				
-8. [EXTRA CREDIT] Write your own version of _.partial. HINT: it will require a closure!
  				
 
  		
