@@ -25,7 +25,7 @@
 	    //maybe returns something here
 	};
 	var firstNameFarmer = lastNameTrier('Farmer'); //logs nothing
-	firstNameBianca('Brown'); //logs 'Farmer Brown' 
+	firstNameFarmer('Brown'); //logs 'Farmer Brown' 
 	```      
 	This function is useful in case you want to try on different last names. For example, I could use firstName again with another last name:
 
