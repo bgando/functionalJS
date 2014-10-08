@@ -1,5 +1,16 @@
 ##Day 2: Closure exercises
-1. Write a function, ‘nonsense’ that takes an input ‘string’. This function contains another function, ‘blab’ which alerts ‘string’ and is immediately called inside the function ‘nonsense’.
+1. Write a function, `nonsense` that takes an input `string`. This function contains another function, `blab` which alerts `string` and is immediately called inside the function `nonsense`. `blab` should look like this inside of `nonsense`:
+
+	```javascript
+	 var blab = function(){
+	   alert(string);
+	 };
+	 ```
+
+1. In your function, `nonsense`, change the immediate call to a setTimeout so that the call to `blab` comes after 2 seconds.
+
+1. Now, instead of calling `blab` inside of `nonsense`, return `blab` (without invoking it) and store it in a variable called `blabLater` 
+
 
 1. Write a function with a closure. The first function should only take one argument, someone's first name, and the inner function should take one more argument, someone's last name. The inner function should console.log both the first name and the last name.
 	```javascript
