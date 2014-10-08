@@ -24,14 +24,14 @@
 	    };
 	    //maybe returns something here
 	};
-	var firstNameBianca = lastNameTrier('Bianca'); //logs nothing
-	firstNameBianca('Gandolfo'); //logs 'Bianca Gandolfo' 
+	var firstNameFarmer = lastNameTrier('Farmer'); //logs nothing
+	firstNameBianca('Brown'); //logs 'Farmer Brown' 
 	```      
 	This function is useful in case you want to try on different last names. For example, I could use firstName again with another last name:
 
 	```javascript
-	firstNameBianca('Smith'); //logs 'Bianca Smith'
-	firstNameBianca('Johnson'); //logs 'Bianca Johnson'
+	firstNameFarmer('Jane'); //logs 'Farmer Jane'
+	firstNameFarmer('Lynne'); //logs 'Farmer Lynne'
 	```       
        
 
@@ -48,10 +48,10 @@
 	
 	```  
 
-1. Using the module pattern, design toaster. Use your creativity here and think about what you want your users to be able to access on the outside of your toaster vs what you don't want them to be able to touch.
+1. Using the module pattern, design a toaster. Use your creativity here and think about what you want your users to be able to access on the outside of your toaster vs what you don't want them to be able to touch.
 		
 	```javascript
-	var myToaster = function(){
+	var Toaster = function(){
 	    //some private methods and properties
 	    
 	    return {
