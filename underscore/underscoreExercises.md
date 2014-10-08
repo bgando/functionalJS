@@ -1,4 +1,4 @@
-## Day4: Underscore exercises
+##Underscore exercises
 
 1. Use _.reduce to multiply all the values in an array.
 
