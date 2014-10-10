@@ -5,7 +5,6 @@
 
 ###Let's get started...
 
-Explore the files in the **ExtraCredit** folder.
  
 Run the  file in a browser. This document shows one passed test and a series of failing tests.
 
