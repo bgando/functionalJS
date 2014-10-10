@@ -61,7 +61,7 @@
 	```
 
 
-1. Use the module pattern to design a character in a Super Mario game. Think about what actions you can control in the game and other aspects you can't control directly (example:  you can only affect your health indirectly by eating a mushroom). If you are not familiar with Super Mario, choose another simple game for this example.
+1. [EXTRA CREDIT] Use the module pattern to design a character in a Super Mario game. Think about what actions you can control in the game and other aspects you can't control directly (example:  you can only affect your health indirectly by eating a mushroom). If you are not familiar with Super Mario, choose another simple game for this example.
 
 1. [EXTRA CREDIT] Why doesn't the code below work? This is a function that should return an array of functions that console.log() each person's name as a string when invoked. Fiddle with this function and inspect how it works, then try to fix it using a closure. Be prepared to explain to a partner how it worked before, and how it works now with a closure. 
 
