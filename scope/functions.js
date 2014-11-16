@@ -67,7 +67,7 @@
         expect(ACTUAL === '???').to.be.true;
       });
 
-      it('if an inner and an outer variable share the same name, and the name is referenced in the inner scope, the inner scope variable masks the variable from the outer scope with the same name. This renders the outer scope variables inaccassible from anywhere within the inner function block', function () {
+      it('if an inner and an outer variable share the same name, and the name is referenced in the inner scope, the inner scope variable masks the variable from the outer scope with the same name. This renders the outer scope variables inaccessible from anywhere within the inner function block', function () {
         var sameName = 'outer';
         var fn = function () {
           var sameName = 'inner';
