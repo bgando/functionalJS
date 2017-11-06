@@ -1,4 +1,4 @@
-#Callback Exercises
+# Callback Exercises
 
 1. Write a function, `funcCaller`, that takes a `func` (a function) and an `arg` (any data type). The function returns the `func` called with `arg`(as an argument).
 

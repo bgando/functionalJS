@@ -27,6 +27,6 @@ Laptop, Chrome browser and a text editor. We recommend Sublime Text 3 for this c
 
 
 
-##Resources
+## Resources
 
 **Scope and Closure:** http://speakingjs.com/es5/ch16.html
