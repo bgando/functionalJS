@@ -102,7 +102,7 @@
       });
 
       it('a new variable scope is created for each call to a function, as exemplified with uninitialized string variables', function () {
-        // this is a longer form of the same observation as above, using strings in stead of numbers.
+        // this is a longer form of the same observation as above, using strings instead of numbers.
         var fn = function () {
           var localVariable;
           if (localVariable === undefined) {
