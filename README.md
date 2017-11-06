@@ -15,7 +15,7 @@ If Hack Reactor takes people from 60 to 120 in web development, then Hack Reacto
 
 ## Prerequisites
 
-It is recommended that students take JS Fundamentals: Objects, Arrays and Functions prior to this course; however it is not required. Students should have 3-5 months experience with JavaScript and programming. Students should understand and be familiar with variables, if/else statements, loops, objects, arrays and the most basic of JavaScript syntax. 
+It is recommended that students take JS Fundamentals: Objects, Arrays and Functions prior to this course; however it is not required. Students should have 3-5 months experience with JavaScript and programming. Students should understand and be familiar with variables, if/else statements, loops, objects, arrays and the most basic of JavaScript syntax.
 
 ## Textbook
 
@@ -23,7 +23,7 @@ No textbook is required for this course. All materials are included in this gith
 
 ## Technical requirements
 
-Laptop, Chrome browser and a text editor. We recommend Sublime Text 3 for this course becuase its fast, light weight and you can run your JavaScript files in its console with Node.
+Laptop, Chrome browser and a text editor. We recommend Sublime Text 3 for this course because it's fast, lightweight and you can run your JavaScript files in its console with Node.
 
 
 
